@@ -1,0 +1,11 @@
+.main-container{
+    width: 100%;  height: 100vh;
+    display: flex;  justify-content: center;  align-items: center;
+}
+
+.titulo {
+    background: linear-gradient(125deg, #21ba45 0, #2185d0 25%, #a333c8 50%, #f2711c 75%, #db2828 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
