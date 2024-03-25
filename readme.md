@@ -16,3 +16,7 @@ al respositorio de GitHub.
 *El siguiente paso es crear un archivo nuevo en la carpeta del repositorio, para ello voy a crear un archivo html "index.html" que va a contener un div que contenga un H1 con el texto "Hola mundo!", y un css llamado "style.css" que centrará este h1 en la pantalla, y le establecerá un color de texto degradado.
 
 *Para añadir el archivo al staging me dirijo al apartado "source control" en Visual Studio Code. Como commit descriptivo añado "primer commit" y seguidamente pulso el "push".
+
+*Para crear una nueva rama llamada "development" pongo el comando git branch "development". Y para cambiar a esta rama - git checkout development.
+
+*Los cambios realizados en la rama development ha sido en el archivo index.html - En lugar de "Hola mundo!" ahora pone "Hello World!"
