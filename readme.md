@@ -17,10 +17,6 @@ al respositorio de GitHub.
 
 *Para añadir el archivo al staging me dirijo al apartado "source control" en Visual Studio Code. Como commit descriptivo añado "primer commit" y seguidamente pulso el "push".
 
-*Para crear una nueva rama llamada "development" pongo el comando git branch "development". Y para cambiar a esta rama - git checkout development.
+*Para hacer un merge de la rama "development" a la rama "main" uso el comando git merge development. No ha dado ningun error.
 
-*Los cambios realizados en la rama development ha sido en el archivo index.html - En lugar de "Hola mundo!" ahora pone "Hello World!"
-
-*Trás subir primero la nueva rama a GitHub y posteriormente los cambios, ahora en el repositorio hay 2 ramas, la rama Master y la rama development, cada uno con un index.html diferente.
-
-*Para volver a la rama main pongo en la terminal "git checkout master"
+*Y para finalizar, hago push con todos los cambios al repositorio en GitHub.
